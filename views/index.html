@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Backend Challenges | Free Code Camp</title>
+      <link rel="shortcut icon" href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico" type="image/x-icon"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+      <link href="/public/style.css" rel="stylesheet" type="text/css">
+   </head>
+
+   <body>
+      <div class="container">
+        <h1>File Size Finder App by <a href="https://twitter.com/ka11away" target="_blank">Alexander Kallaway</a></h1>
+         <h2>One of Free Code Camp Backend Challenges</h2>
+        <h3>Search for images</h3>
+        <p>
+          Upload any file to the app, and you will receive a response from it, telling you the byte size of the file.
+        </p>
+        <form action="/get-file-size" method="post" enctype="multipart/form-data">
+          <input type="file" name="fileToSize" />
+          <button type="submit">Upload</button>
+        </form>
+      </div>
+   </body>
+
+</html>
